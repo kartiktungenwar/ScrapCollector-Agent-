@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.techflux.oyebhangarwalaagent.activity.OrderViewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_margin"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:paddingTop="@dimen/activity_margin"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/order_details"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView_title" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/textView_title"
+        android:background="@color/color_white">
+
+    </RelativeLayout>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_Order"
+        android:divider="@color/color_white"
+        android:dividerHeight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView_title"
+        android:layout_above="@+id/relativeLayout" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/empty_list_text" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:layout_height="wrap_content"
+        android:background="@color/color_grey_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/doubleclick"
+            android:id="@+id/imageViewDone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cancle48"
+            android:layout_margin="@dimen/activity_margin"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageViewCancel" />
+    </RelativeLayout>
+</RelativeLayout>

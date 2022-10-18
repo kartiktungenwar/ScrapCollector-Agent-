@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Oye Bhangarwala@Agent</string>
+    <string name="action_settings">LogOut</string>
+    <string name="signin">Sign In</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="forgotpassword">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="email_id">Enter Email</string>
+    <string name="submit">Submit</string>
+    <string name="address">Check Address</string>
+    <string name="empty_list_text">Nothing to Dispaly</string>
+    <string name="product_id">Product Id</string>
+    <string name="product_quantity">Product Quanitity</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_type">Prduct Type</string>
+    <string name="order_details">Order Details</string>
+    <string name="order_list">Order List</string>
+    <string name="thank">Thank You</string>
+    <string name="some_text">Your submission.</string>
+    <string name="back">Back to Home</string>
+    <string name="start_transaction">Start Transaction</string>
+    <string name="action_update">Update Firebase id</string>
+</resources>

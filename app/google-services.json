@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57689049210",
+    "firebase_url": "https://oye-bhangarwala-agent.firebaseio.com",
+    "project_id": "oye-bhangarwala-agent",
+    "storage_bucket": "oye-bhangarwala-agent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57689049210:android:42fdbae430b9f2ca",
+        "android_client_info": {
+          "package_name": "com.techflux.oyebhangarwalaagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57689049210-fgj26ri0ebnl55dv2r3k25ctedd6s4m2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techflux.oyebhangarwalaagent",
+            "certificate_hash": "aa86c739b85a1077ba9609a48024295a98353577"
+          }
+        },
+        {
+          "client_id": "57689049210-r2mg5vr28ocu9evlcj2dno5bkqsbpn4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApSkjoex81gTFuu224ooPgXIcxMCowJ6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57689049210-r2mg5vr28ocu9evlcj2dno5bkqsbpn4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
